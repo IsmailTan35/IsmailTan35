@@ -5,8 +5,9 @@
 
 ## 🙋‍♂️ About Me
 
-- 🔭 I’m currently working on **[React Discord Clone](https://github.com/IsmailTan35/React-Nodejs-Discord-Clone)**
+- 🔭 I’m currently working on **[React Discord Clone](https://discordd.vercel.app/)**
 
+https://discordd.vercel.app/
 - 🌱 I’m currently learning **Kubernetes and Docker**
 
 - 📫 How to reach me **ismailtan35@gmail.com**
