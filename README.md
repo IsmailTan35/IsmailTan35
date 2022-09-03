@@ -13,10 +13,10 @@ https://discordd.vercel.app/
 - 📫 How to reach me **ismailtan35@gmail.com**
 
 - ⚡ Fun fact **I play games, read books about classics and go to the GYM very often.**
+- 
+<img src="https://komarev.com/ghpvc/?username=IsmailTan35" />
 
 ## 🚀 Languages and Tools:
-
-<img src="https://komarev.com/ghpvc/?username=IsmailTan35" />
 
 <p align="left"> 
     <a href="https://expressjs.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a>
