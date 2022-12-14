@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working on **[React Discord Clone](https://notoriginaldiscord.vercel.app/)**
 
-https://discordd.vercel.app/
+https://notoriginaldiscord.vercel.app/
 - 🌱 I’m currently learning **Kubernetes and Docker**
 
 - 📫 How to reach me **ismailtan35@gmail.com**
