@@ -58,3 +58,17 @@ https://notoriginaldiscord.vercel.app/
 <a href = "https://www.instagram.com/ismailtan35"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
 
 </p>
+
+## My Projects:
+
+Chess 3D : https://chess3d.vercel.app 
+
+Discord Clone : https://notoriginaldiscord.vercel.app/
+
+News : https://newstestcase.vercel.app
+
+TestCase: https://ismailtantestcase.vercel.app
+
+Omdb : https://omdbb.vercel.app
+
+Authors: https://authorr.vercel.app
