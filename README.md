@@ -61,11 +61,11 @@
 
 ## My Projects:
 
-Chess 3D : https://chess3d.vercel.app 
+Chess 3D : https://chess3d.ismailtan.dev 
 
-War of Tanks 3D : https://waroftanks.vercel.app/
+War of Tanks 3D : https://waroftanks.ismailtan.dev/
 
-Discord Clone : https://notoriginaldiscord.vercel.app/
+Discord Clone : https://discordclone.ismailtan.dev/
 
 News : https://newstestcase.vercel.app
 
