@@ -63,12 +63,3 @@ Chess 3D : https://chess3d.ismailtan.dev
 War of Tanks 3D : https://waroftanks.ismailtan.dev/
 
 Discord Clone : https://discordclone.ismailtan.dev/
-
-News : https://newstestcase.vercel.app
-
-TestCase: https://ismailtantestcase.vercel.app
-
-Omdb : https://omdbb.vercel.app
-
-Authors: https://authorr.vercel.app
-
