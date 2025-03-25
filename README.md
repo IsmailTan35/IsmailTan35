@@ -5,7 +5,7 @@
 
 ## 🙋‍♂️ About Me
 
-- 🔭 I’m currently working on **[React Discord Clone](https://notoriginaldiscord.vercel.app/)**
+- 🔭 I’m currently working on **[React Discord Clone](https://discordclone.ismailtan.dev/)**
 
 [https://discordclone.ismailtan.dev](https://discordclone.ismailtan.dev/)
 - 🌱 I’m currently learning **Kubernetes and Docker**
