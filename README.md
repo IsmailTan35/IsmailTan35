@@ -10,10 +10,7 @@
 [https://discordclone.ismailtan.dev](https://discordclone.ismailtan.dev/)
 - 🌱 I’m currently learning **Kubernetes and Docker**
 
-- 📫 How to reach me **ismailtan35@gmail.com**
-
 - ⚡ Fun fact **I play games, read books about classics and go to the GYM very often.**
-
 
 <img src="https://komarev.com/ghpvc/?username=IsmailTan35" />
 
