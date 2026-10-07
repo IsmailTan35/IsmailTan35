@@ -1,0 +1,73 @@
+name: Update profile assets
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # every day at 00:00 UTC
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths: [".github/workflows/update-profile.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake/github-snake.svg
+            dist/snake/github-snake-dark.svg?palette=github-dark
+
+      # The summary-cards action wipes its output folder on every run,
+      # so each theme is generated separately and copied into dist/.
+      - name: Generate summary cards (dark)
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          THEME: github_dark
+          UTC_OFFSET: 3
+          EXCLUDE_REPOS: osrm-backend,osrm-backend-1
+          AUTO_PUSH: false
+
+      - name: Collect dark cards
+        run: |
+          mkdir -p dist/cards/dark
+          cp profile-summary-card-output/github_dark/*.svg dist/cards/dark/
+
+      - name: Generate summary cards (light)
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          THEME: github
+          UTC_OFFSET: 3
+          EXCLUDE_REPOS: osrm-backend,osrm-backend-1
+          AUTO_PUSH: false
+
+      - name: Collect light cards
+        run: |
+          mkdir -p dist/cards/light
+          cp profile-summary-card-output/github/*.svg dist/cards/light/
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: update profile assets"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
